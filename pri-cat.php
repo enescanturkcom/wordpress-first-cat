@@ -9,4 +9,7 @@ function fonPriCat(){
         echo esc_html( $categories[0]->name );
     }
 }
+
+/* Usage: Add where to use */
+fonPriCat();
 ?>
